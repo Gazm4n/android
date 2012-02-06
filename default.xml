@@ -12,7 +12,7 @@
            remote="github"
            sync-j="4" />
 
-<project path="build" name="tpruvot/android_build">
+<project path="build" name="Gazm4n/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="target/platform/qcom.mk" dest="hardware/qcom/Android.mk" />
     <copyfile src="target/platform/qcom.mk" dest="vendor/qcom/Android.mk" />
@@ -165,7 +165,7 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-<project path="frameworks/base" name="tpruvot/android_frameworks_base" />
+<project path="frameworks/base" name="Gazm4n/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -264,7 +264,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-<project path="device/motorola/jordan" name="tpruvot/android_device_motorola_jordan" />
+<project path="device/motorola/jordan" name="Gazm4n/android_device_motorola_jordan" />
 <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" revision="ics-plus" />
 
 <project path="device/moto/hijack" name= "MotoMagic/android_device_moto_hijack" />
@@ -272,6 +272,6 @@
 <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" />
 <project path="packages/apps/CMSettings" name="Danesh/android_packages_apps_CMSettings" />
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="Gazm4n/android" />
 
 </manifest>
