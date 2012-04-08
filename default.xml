@@ -274,3 +274,5 @@
 <project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
 
   <project path="android" name="CyanogenMod/android" />
+  
+  </manifest>
